@@ -14,8 +14,9 @@ Toolavio is a browser-based digital toolkit for everyday tasks on desktop and mo
 | Turn photos into a document | [Images to PDF](https://toolavio.com/en/images-to-pdf/) |
 | Merge, split, or organize PDF pages | [PDF tools](https://toolavio.com/en/pdf/) |
 | Resize or convert an image | [Image tools](https://toolavio.com/en/images/) |
-| Compare CSV files or work with tables | Search for **Compare CSV files** on [Toolavio](https://toolavio.com/) |
-| Format JSON or use developer utilities | [Developer tools](https://toolavio.com/en/developer/) |
+| Find differences between two tables | [Compare CSV files](https://toolavio.com/en/spreadsheet/compare-csv-files/) |
+| Make JSON easier to read | [Format JSON](https://toolavio.com/en/developer/json-format/) |
+| Explore developer utilities | [Developer tools](https://toolavio.com/en/developer/) |
 | Run compatible operations in sequence | [Toolavio Flow](https://toolavio.com/en/flow/) |
 | Prepare supported tools for offline use | [Offline toolkits](https://toolavio.com/en/offline/) |
 
