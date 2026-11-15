@@ -1,7 +1,20 @@
-# Toolavio
-### Convert, edit, calculate, and work with your files in one place.
+<p align="center">
+  <a href="https://toolavio.com/">
+    <img src="https://raw.githubusercontent.com/Toolavio/Toolavio/main/assets/toolavio-mark.svg" alt="Toolavio logo" width="96" height="96">
+  </a>
+</p>
 
-**[Open Toolavio](https://toolavio.com/) · [Quick start](docs/QUICK_START.md) · [FAQ](docs/FAQ.md) · [Roadmap](docs/ROADMAP.md) · [Get help](SUPPORT.md)**
+<h1 align="center">Toolavio</h1>
+
+<p align="center"><strong>Convert, edit, calculate, and work with your files in one place.</strong></p>
+
+<p align="center">
+  <a href="https://toolavio.com/">Open Toolavio</a> ·
+  <a href="https://github.com/Toolavio/Toolavio/blob/main/docs/QUICK_START.md">Quick start</a> ·
+  <a href="https://github.com/Toolavio/Toolavio/blob/main/docs/FAQ.md">FAQ</a> ·
+  <a href="https://github.com/Toolavio/Toolavio/blob/main/docs/ROADMAP.md">Roadmap</a> ·
+  <a href="https://github.com/Toolavio/Toolavio/blob/main/SUPPORT.md">Get help</a>
+</p>
 
 Toolavio is a browser-based digital toolkit for everyday tasks on desktop and mobile. The platform brings together approximately **1,000 operations across 12 categories**, with interfaces available in **17 languages**.
 
@@ -50,7 +63,7 @@ Our goal is to help people focus on the result they need—not on which applicat
 
 **Toolavio Action Engine (TAE)** is the planned integration system for offering Toolavio tools inside other websites. The customer-facing product is **Toolavio Action**; its permanent project path is `/tae/` on Toolavio.com.
 
-These are development initiatives, not claims that a standalone library, downloadable Core, or production-ready embedding service is available from this repository. See the [public roadmap](docs/ROADMAP.md).
+These are development initiatives, not claims that a standalone library, downloadable Core, or production-ready embedding service are available from this repository. See the [public roadmap](docs/ROADMAP.md).
 
 ## Feedback and updates
 
