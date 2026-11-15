@@ -1,0 +1,69 @@
+name: Bug report
+description: Report a reproducible problem using synthetic, non-sensitive data.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This report will be PUBLIC. Do not attach private documents, credentials, account details, payment information, or internal source code.
+        Report security concerns privately to contact@toolavio.com instead.
+  - type: input
+    id: tool
+    attributes:
+      label: Tool or public page
+      description: Enter the tool name and public URL. Remove private query parameters.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser, operating system, and language
+      placeholder: "Example: Safari on iOS; English; browser tab"
+    validations:
+      required: true
+  - type: dropdown
+    id: context
+    attributes:
+      label: Where did it happen?
+      options:
+        - Online browser tab
+        - Installed web app
+        - Offline
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Describe the actions and settings, using only fictional data.
+      placeholder: "1. Open the tool\n2. Select a synthetic sample\n3. Run the operation"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+      description: Describe the result or paste a redacted error message. Avoid full logs or network captures.
+    validations:
+      required: true
+  - type: textarea
+    id: sample
+    attributes:
+      label: Minimal synthetic example (optional)
+      description: Small invented text or a description of a sample file. No personal records or confidential documents.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Public reporting check
+      options:
+        - label: I have removed personal data, secrets, private files, and internal code from this report and its attachments.
+          required: true
+        - label: This is not a security vulnerability report; security concerns go to the private contact channel.
+          required: true

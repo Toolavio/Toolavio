@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Use Toolavio
+    url: https://toolavio.com/
+    about: Open the product. This repository contains public documentation, not the application.
+  - name: Account or private support
+    url: https://toolavio.com/en/about.html
+    about: Contact contact@toolavio.com privately; do not post account details in an issue.
+  - name: Report a security concern privately
+    url: https://github.com/Toolavio/Toolavio/blob/main/SECURITY.md
+    about: Follow the private reporting instructions. Do not post vulnerabilities publicly.
