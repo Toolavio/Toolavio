@@ -40,6 +40,8 @@ Toolavio brings everyday digital tasks into one browser-based toolkit for deskto
 
 Start with the [small CSV and JSON samples](https://github.com/Toolavio/Toolavio/blob/main/examples/README.md) and follow the [three practical walkthroughs](https://github.com/Toolavio/Toolavio/blob/main/docs/QUICK_START.md). The samples are fictional inputs, not software or private user data.
 
+For a task-oriented introduction, explore [six practical use cases](docs/USE_CASES.md) or [leggi i casi d'uso in italiano](docs/CASI_USO_IT.md).
+
 ## Keep your work moving
 
 | Capability | Practical benefit |
@@ -54,6 +56,17 @@ Start with the [small CSV and JSON samples](https://github.com/Toolavio/Toolavio
 For tools that support local processing, file contents are processed in your browser rather than uploaded to Toolavio for that operation. Loading the site, downloading resources, or using account services can still require network requests.
 
 Capabilities depend on the tool, format, browser, and feature access. Technical checks are not universal certification of document fidelity. Keep your originals and review important outputs. Local browser storage is not a guaranteed backup. Read the [FAQ](https://github.com/Toolavio/Toolavio/blob/main/docs/FAQ.md) and [official privacy information](https://toolavio.com/en/privacy.html).
+
+## Explore the project
+
+| Guide | What it helps you understand |
+| --- | --- |
+| [Quick start](docs/QUICK_START.md) | Three walkthroughs with expected sample results. |
+| [Practical use cases](docs/USE_CASES.md) | Six everyday tasks and the appropriate starting points. |
+| [Casi d'uso in italiano](docs/CASI_USO_IT.md) | Percorsi concreti, risultati attesi e cosa controllare. |
+| [Guida alle otto funzioni](docs/GUIDA_FUNZIONI_IT.md) | Quando usare One, Drop, Flow, Proof, Vault, preferiti, condivisione e offline. |
+| [Presentazione in italiano](docs/PRESENTAZIONE_IT.md) | Cos'è Toolavio e quale problema vogliamo risolvere. |
+| [Public roadmap](docs/ROADMAP.md) | Current priorities, planned Core/TAE work, and readiness criteria. |
 
 ## What we are building toward
 
