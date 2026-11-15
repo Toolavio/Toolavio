@@ -13,6 +13,7 @@
   <a href="https://github.com/Toolavio/Toolavio/blob/main/docs/QUICK_START.md">Quick start</a> ·
   <a href="https://github.com/Toolavio/Toolavio/blob/main/examples/README.md">Try sample files</a> ·
   <a href="https://github.com/Toolavio/Toolavio/blob/main/docs/FAQ.md">FAQ</a> ·
+  <a href="https://github.com/Toolavio/Toolavio/blob/main/docs/PRESENTAZIONE_IT.md">Presentazione in italiano</a> ·
   <a href="https://github.com/Toolavio/Toolavio/blob/main/SUPPORT.md">Get help</a>
 </p>
 
