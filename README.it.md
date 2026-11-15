@@ -12,6 +12,7 @@
 
 <p align="center">
   <a href="https://toolavio.com/it/"><strong>Apri Toolavio</strong></a> ·
+  <a href="https://toolavio.com/pro/?lang=it">Scopri Pro</a> ·
   <a href="docs/QUICK_START_IT.md">Guida rapida</a> ·
   <a href="examples/README.it.md">Prova i file di esempio</a> ·
   <a href="https://github.com/Toolavio/Toolavio/discussions">Community</a> ·
@@ -91,6 +92,28 @@ Per un'introduzione orientata alle attività, leggi i [sei casi d'uso pratici](d
 Negli strumenti che supportano l'elaborazione locale, i contenuti vengono trattati nel browser anziché caricati su Toolavio per quell'operazione. Caricare il sito, scaricare risorse o utilizzare servizi dell'account può comunque richiedere connessioni di rete.
 
 Le capacità dipendono dallo strumento, dal formato, dal browser e dall'accesso alle funzioni. I controlli tecnici non certificano universalmente la fedeltà dei documenti. Conserva gli originali e controlla gli output importanti. Lo spazio locale del browser non è un backup garantito. Leggi le [FAQ](docs/FAQ_IT.md) e le [informazioni ufficiali sulla privacy](https://toolavio.com/it/privacy.html).
+
+## Toolavio Pro — Workspace avanzato e PDF Studio
+
+**Prepara, controlla e completa i documenti in un unico spazio dedicato.** Toolavio Pro è l'area premium senza pubblicità per collegare le attività sui documenti, non un requisito per utilizzare ogni singolo strumento.
+
+| Funzionalità Pro | Cosa permette di fare |
+| --- | --- |
+| **PDF Studio** | Combinare PDF e immagini supportate, riordinare o estrarre pagine e comporre il documento finale. |
+| **Compilazione, firme e modelli riutilizzabili** | Aggiungere testo, firme visibili, date, caselle e timbri; riutilizzare le configurazioni supportate come modelli locali. |
+| **Privacy Shield** | Controllare i metadati di base e cercare email, telefoni, IBAN o testo personalizzato nel testo selezionabile del PDF; esaminare i risultati prima dell'oscuramento. |
+| **Flow & Batch** | Utilizzare i flussi documentali supportati e preparare PDF personalizzati a partire da dati CSV. |
+| **Confronto e preparazione di copie** | Confrontare versioni di documenti e utilizzare Document Rescue per ricostruire una copia appiattita quando appropriato. |
+
+Per una conversione rapida, parti da uno strumento pubblico. Esplora Pro quando vuoi eseguire più passaggi di preparazione nello stesso workspace. Flow e le altre funzioni condivise della piattaforma **non sono automaticamente esclusive di Pro**.
+
+**Limiti importanti:** aggiungere contenuti non significa riscrivere il testo originale del PDF come in Word. Le firme visibili non vengono presentate qui come firme digitali basate su certificati. Il rilevamento dei dati sensibili richiede revisione; l'appiattimento può eliminare testo selezionabile, link e moduli interattivi. Conserva gli originali e controlla le esportazioni importanti.
+
+Pro distingue l'elaborazione locale dei documenti dai servizi di account, licenza, dispositivi autorizzati e abbonamento, che richiedono comunicazione con il server. Questa guida riassume l'offerta pubblica: non è un nuovo test completo dell'accesso a pagamento o di tutte le funzioni.
+
+**[Scopri Toolavio Pro e i piani attuali →](https://toolavio.com/pro/?lang=it)**
+
+Funzioni, requisiti di accesso, prezzi e condizioni dell'abbonamento sono mantenuti nella pagina Pro ufficiale, senza duplicarli qui. Il codice sorgente e i motori di elaborazione Pro rimangono riservati.
 
 ## Esplora il progetto
 

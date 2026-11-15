@@ -12,6 +12,7 @@
 
 <p align="center">
   <a href="https://toolavio.com/"><strong>Open Toolavio</strong></a> ·
+  <a href="https://toolavio.com/pro/?lang=en">Explore Pro</a> ·
   <a href="docs/QUICK_START.md">Quick start</a> ·
   <a href="examples/README.md">Try sample files</a> ·
   <a href="https://github.com/Toolavio/Toolavio/discussions">Community</a> ·
@@ -91,6 +92,28 @@ For a task-oriented introduction, explore [six practical use cases](docs/USE_CAS
 For tools that support local processing, file contents are processed in your browser rather than uploaded to Toolavio for that operation. Loading the site, downloading resources, or using account services can still require network requests.
 
 Capabilities depend on the tool, format, browser, and feature access. Technical checks are not universal certification of document fidelity. Keep your originals and review important outputs. Local browser storage is not a guaranteed backup. Read the [FAQ](docs/FAQ.md) and [official privacy information](https://toolavio.com/en/privacy.html).
+
+## Toolavio Pro — Advanced workspace and PDF Studio
+
+**Prepare, review, and finish documents in one dedicated workspace.** Toolavio Pro is the premium, ad-free area for connected document work—not a requirement for every individual tool.
+
+| Pro capability | What it helps you do |
+| --- | --- |
+| **PDF Studio** | Combine PDFs and supported images, reorder or extract pages, and compose the final document. |
+| **Fill, sign, and reuse templates** | Add text, visible signatures, dates, checkboxes, and stamps; reuse supported layouts as local templates. |
+| **Privacy Shield** | Inspect basic metadata and find email addresses, phone numbers, IBANs, or custom text in selectable PDF text; review matches before redaction. |
+| **Flow & Batch** | Use supported document workflows and prepare personalized PDFs from CSV data. |
+| **Compare and prepare copies** | Compare document versions and use Document Rescue to rebuild a flattened copy when appropriate. |
+
+For a quick conversion, start with a public tool. Explore Pro when you want several document-preparation steps in the same workspace. Flow and the platform's other shared capabilities are **not automatically Pro-exclusive**.
+
+**Important limits:** adding content is not Word-style rewriting of existing PDF text. Visible signatures are not presented here as certificate-based digital signatures. Sensitive-data detection needs review; flattening can remove selectable text, links, and interactive forms. Keep originals and inspect important exports.
+
+Pro describes local document processing separately from the account, license, authorized-device, and subscription services that require server communication. This guide summarizes the public offering; it is not a new end-to-end test of paid access or every feature.
+
+**[Explore Toolavio Pro and current plans →](https://toolavio.com/pro/?lang=en)**
+
+Current features, access requirements, prices, and subscription terms are maintained on the official Pro page rather than duplicated here. The Pro source code and processing engines remain private.
 
 ## Explore the project
 
