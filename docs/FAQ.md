@@ -1,5 +1,7 @@
 # Frequently asked questions
 
+**English — main** · [Italiano](FAQ_IT.md) · [Deutsch](FAQ_DE.md)
+
 [Overview](../README.md) · [Quick start](QUICK_START.md) · [Support](../SUPPORT.md)
 
 ## What is Toolavio?

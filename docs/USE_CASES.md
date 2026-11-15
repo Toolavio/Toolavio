@@ -1,6 +1,8 @@
 # Practical ways to use Toolavio
 
-[Open Toolavio](https://toolavio.com/) · [Overview](../README.md) · [Quick start](QUICK_START.md) · [Italiano](CASI_USO_IT.md)
+**English — main** · [Italiano](CASI_USO_IT.md) · [Deutsch](USE_CASES_DE.md)
+
+[Open Toolavio](https://toolavio.com/) · [Overview](../README.md) · [Quick start](QUICK_START.md)
 
 ## Start with a result, not a product name
 
@@ -85,6 +87,6 @@ Download important outputs. Local browser storage is useful workspace storage, n
 
 For one conversion, use its dedicated tool. For several compatible transformations, use Flow. For repeated use, explore favorites and supported presets. For another person's task, share a tool or procedure rather than posting private input data.
 
-See the [FAQ](FAQ.md) for privacy and platform limits, or [Support](../SUPPORT.md) for a reproducible problem. No application source or private processing engine is distributed with these examples.
+The [guide to the eight capabilities](FEATURES.md) explains these paths. See the [FAQ](FAQ.md) for privacy and platform limits, or [Support](../SUPPORT.md) for a reproducible problem. No application source or private processing engine is distributed with these examples.
 
 **[Try your next task on Toolavio.com →](https://toolavio.com/)**

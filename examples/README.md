@@ -1,5 +1,7 @@
 # Try Toolavio with fictional sample data
 
+**English — main** · [Italiano](README.it.md) · [Deutsch](README.de.md)
+
 [Open Toolavio](https://toolavio.com/) · [Quick start](../docs/QUICK_START.md) · [Project overview](../README.md)
 
 These tiny files let you try a few operations without using confidential documents. Names, scores, and project values are fictional. They contain no credentials, user records, or application source code.

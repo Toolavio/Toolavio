@@ -1,5 +1,7 @@
 # Support and feedback
 
+**English — main** · [Italiano](SUPPORT.it.md) · [Deutsch](SUPPORT.de.md)
+
 [Use Toolavio](https://toolavio.com/) · [Quick start](docs/QUICK_START.md) · [FAQ](docs/FAQ.md)
 
 ## Choose the right channel

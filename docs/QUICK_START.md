@@ -1,5 +1,7 @@
 # Quick start
 
+**English — main** · [Italiano](QUICK_START_IT.md) · [Deutsch](QUICK_START_DE.md)
+
 [Open Toolavio](https://toolavio.com/) · [Overview](../README.md) · [Sample files](../examples/README.md) · [FAQ](FAQ.md)
 
 Try these three tasks with non-sensitive sample data. The walkthroughs describe a workflow and expected content—not exhaustive testing on every device. Labels can vary by language and release.

@@ -1,6 +1,8 @@
 # Cosa puoi fare con Toolavio: sei percorsi pratici
 
-[Apri Toolavio](https://toolavio.com/it/) · [Presentazione](PRESENTAZIONE_IT.md) · [Guida alle otto funzioni](GUIDA_FUNZIONI_IT.md) · [English](USE_CASES.md)
+[English — principale](USE_CASES.md) · **Italiano** · [Deutsch](USE_CASES_DE.md)
+
+[Apri Toolavio](https://toolavio.com/it/) · [Presentazione](PRESENTAZIONE_IT.md) · [Guida rapida](QUICK_START_IT.md) · [Guida alle otto funzioni](GUIDA_FUNZIONI_IT.md)
 
 ## Parti dal risultato che ti serve
 
@@ -26,6 +28,8 @@ Scegli lo strumento di conversione da immagini a PDF, seleziona le fotografie ne
 **Cosa controllare:** apri il PDF e verifica numero di pagine, ordine, orientamento e leggibilità. Un PDF composto da fotografie non diventa automaticamente un documento con testo ricercabile tramite OCR.
 
 È un percorso utile per raccogliere immagini autorizzate, appunti visivi o materiali da consegnare insieme. Per provarlo, non servono documenti personali.
+
+[Segui il percorso immagini → PDF](QUICK_START_IT.md).
 
 ## 2. Adattare un'immagine prima di utilizzarla
 
@@ -83,6 +87,6 @@ Scarica i risultati importanti. Lo spazio locale del browser può aiutarti a rip
 
 Per una singola operazione, apri direttamente lo strumento. Per più trasformazioni compatibili, usa Flow. Per attività ripetute, esplora preferiti e preset. Per aiutare qualcun altro, condividi il collegamento o la procedura, non i tuoi documenti privati.
 
-La [guida alle otto funzioni](GUIDA_FUNZIONI_IT.md) spiega questi percorsi senza richiedere conoscenze tecniche. Per una segnalazione usa [Supporto](../SUPPORT.md), con dati sintetici e senza documenti riservati.
+La [guida alle otto funzioni](GUIDA_FUNZIONI_IT.md) spiega questi percorsi senza richiedere conoscenze tecniche. Consulta le [FAQ](FAQ_IT.md) per privacy e limiti della piattaforma. Per una segnalazione usa [Supporto](../SUPPORT.it.md), con dati sintetici e senza documenti riservati. Questi esempi non distribuiscono codice applicativo o motori privati.
 
 **[Trova il tuo prossimo strumento su Toolavio.com →](https://toolavio.com/it/)**

@@ -1,6 +1,8 @@
 # Le otto funzioni Toolavio, spiegate attraverso il loro utilizzo
 
-[Apri Toolavio](https://toolavio.com/it/) · [Presentazione](PRESENTAZIONE_IT.md) · [Casi d'uso](CASI_USO_IT.md) · [Roadmap](ROADMAP.md)
+[English — principale](FEATURES.md) · **Italiano** · [Deutsch](FEATURES_DE.md)
+
+[Apri Toolavio](https://toolavio.com/it/) · [Presentazione](PRESENTAZIONE_IT.md) · [Casi d'uso](CASI_USO_IT.md) · [Roadmap](ROADMAP_IT.md)
 
 ## Non sono otto programmi da imparare
 
@@ -95,6 +97,6 @@ L'installazione della web app non è un programma nativo separato distribuito da
 
 ## E Toolavio Core e TAE?
 
-Sono iniziative di sviluppo distinte dalle otto funzioni descritte qui. Core riguarda l'estrazione di componenti riutilizzabili; Toolavio Action Engine riguarda la futura integrazione in siti esterni. Questa guida non offre codice, un pacchetto Core o un embed commerciale già pronto. Consulta la [roadmap pubblica](ROADMAP.md).
+Sono iniziative di sviluppo distinte dalle otto funzioni descritte qui. Core riguarda l'estrazione di componenti riutilizzabili; Toolavio Action Engine riguarda la futura integrazione in siti esterni. Questa guida non offre codice, un pacchetto Core o un embed commerciale già pronto. Consulta la [roadmap pubblica](ROADMAP_IT.md).
 
 Il software rimane riservato. Per iniziare, scegli uno dei [sei casi d'uso](CASI_USO_IT.md) o apri direttamente [Toolavio.com](https://toolavio.com/it/).

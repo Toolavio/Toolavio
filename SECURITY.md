@@ -1,5 +1,7 @@
 # Reporting a security concern
 
+**English — main** · [Italiano](SECURITY.it.md) · [Deutsch](SECURITY.de.md)
+
 **Please do not disclose suspected vulnerabilities, credentials, or private data in public GitHub issues, discussions, or pull requests.**
 
 ## Private contact

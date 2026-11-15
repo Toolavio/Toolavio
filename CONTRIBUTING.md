@@ -1,5 +1,7 @@
 # Contributing feedback and documentation
 
+**English — main** · [Italiano](CONTRIBUTING.it.md) · [Deutsch](CONTRIBUTING.de.md)
+
 Thank you for helping make Toolavio easier to understand and use.
 
 **This repository is a public presentation and feedback hub. It is not the Toolavio application source repository.**
@@ -9,6 +11,12 @@ Thank you for helping make Toolavio easier to understand and use.
 Use the [issue forms](https://github.com/Toolavio/Toolavio/issues/new/choose) for reproducible bugs, practical feature suggestions, translation feedback, or unclear documentation. Explain the task and expected outcome instead of only proposing another button or tool name.
 
 Small pull requests correcting this repository's public wording or links are welcome. Keep them focused, explain the change, and verify relative links. Product release history should remain linked to the official [Updates page](https://toolavio.com/en/updates.html), not copied into an independently maintained changelog.
+
+## Documentation languages
+
+English is the primary documentation language. Italian and German are optional versions of the same public guides, not separate product promises. Keep language-switch links reciprocal and use the matching language for internal guide links.
+
+When changing meaning, review the corresponding translations as part of the same change. If you cannot update a translation, identify the exact paragraph needing review rather than silently leaving contradictory instructions. Sample CSV/JSON data, product names, identifiers, and the permanent `/tae/` path should not be translated. Public issue forms remain in English; feedback in Italian or German is welcome.
 
 ## Keep private material private
 

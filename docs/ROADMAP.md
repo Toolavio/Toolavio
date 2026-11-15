@@ -1,5 +1,7 @@
 # Public roadmap
 
+**English — main** · [Italiano](ROADMAP_IT.md) · [Deutsch](ROADMAP_DE.md)
+
 [Overview](../README.md) · [Try Toolavio](https://toolavio.com/) · [Practical use cases](USE_CASES.md) · [Official product updates](https://toolavio.com/en/updates.html)
 
 This page explains the direction of Toolavio. It is not a release commitment, a delivery schedule, or a list of features that can all be downloaded from this repository.
@@ -67,4 +69,4 @@ The software and internal development materials remain reserved. This repository
 
 Useful feedback explains where the workflow becomes unclear: choosing a tool, selecting an input, understanding an option, interpreting a result, or saving the output. Use fictional examples. Account details and security concerns belong in the private channels described in [Support](../SUPPORT.md) and [Security](../SECURITY.md).
 
-For examples of the current documented workflows, read [Practical use cases](USE_CASES.md) or [Casi d'uso in italiano](CASI_USO_IT.md). Actual product release history stays on the official website rather than being duplicated here.
+For examples of the current documented workflows, read [Practical use cases](USE_CASES.md). Actual product release history stays on the official website rather than being duplicated here.

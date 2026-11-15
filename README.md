@@ -8,12 +8,14 @@
 
 <p align="center"><strong>One place to convert, edit, calculate, and work with your files.</strong></p>
 
+<p align="center"><strong>English — main</strong> · <a href="README.it.md">Italiano</a> · <a href="README.de.md">Deutsch</a></p>
+
 <p align="center">
   <a href="https://toolavio.com/"><strong>Open Toolavio</strong></a> ·
-  <a href="https://github.com/Toolavio/Toolavio/blob/main/docs/QUICK_START.md">Quick start</a> ·
-  <a href="https://github.com/Toolavio/Toolavio/blob/main/examples/README.md">Try sample files</a> ·
+  <a href="docs/QUICK_START.md">Quick start</a> ·
+  <a href="examples/README.md">Try sample files</a> ·
   <a href="https://github.com/Toolavio/Toolavio/discussions">Community</a> ·
-  <a href="https://github.com/Toolavio/Toolavio/blob/main/docs/PRESENTAZIONE_IT.md">Italiano</a>
+  <a href="docs/PROJECT.md">About the project</a>
 </p>
 
 <p align="center"><strong>Browser-based · Desktop & mobile · 17 interface languages</strong><br>
@@ -22,6 +24,8 @@ Public product guide. Private application code.</p>
 Toolavio brings everyday digital tasks into one browser-based toolkit for desktop and mobile: **PDFs, images, text, tables, calculations, and developer utilities**. Its catalog contains approximately **1,000 operations across 12 categories**, with interfaces in **17 languages**.
 
 **Use the product at [Toolavio.com](https://toolavio.com/).** This repository contains its public presentation, user guides, fictional sample data, and feedback forms—not the application source code or an installable software package.
+
+English is the primary language of this repository. Italian and German are optional reading versions, available through the language links at the top of each public guide. The website's 17 interface languages and this repository's three documentation languages are different scopes.
 
 ## Why give Toolavio a try?
 
@@ -69,9 +73,9 @@ Choose indentation, run the operation, and inspect the result. With two-space in
 
 This is a fictional example of the expected transformation, not a claim that every tool or browser has been tested. Compare the keys, values, and array order before copying or downloading.
 
-For file-based tasks, use the [small CSV and JSON samples](https://github.com/Toolavio/Toolavio/blob/main/examples/README.md) and follow the [three practical walkthroughs](https://github.com/Toolavio/Toolavio/blob/main/docs/QUICK_START.md). The samples are fictional inputs, not software or private user data.
+For file-based tasks, use the [small CSV and JSON samples](examples/README.md) and follow the [three practical walkthroughs](docs/QUICK_START.md). The samples are fictional inputs, not software or private user data.
 
-For a task-oriented introduction, explore [six practical use cases](docs/USE_CASES.md) or [leggi i casi d'uso in italiano](docs/CASI_USO_IT.md).
+For a task-oriented introduction, explore [six practical use cases](docs/USE_CASES.md).
 
 ## Keep your work moving
 
@@ -86,18 +90,20 @@ For a task-oriented introduction, explore [six practical use cases](docs/USE_CAS
 
 For tools that support local processing, file contents are processed in your browser rather than uploaded to Toolavio for that operation. Loading the site, downloading resources, or using account services can still require network requests.
 
-Capabilities depend on the tool, format, browser, and feature access. Technical checks are not universal certification of document fidelity. Keep your originals and review important outputs. Local browser storage is not a guaranteed backup. Read the [FAQ](https://github.com/Toolavio/Toolavio/blob/main/docs/FAQ.md) and [official privacy information](https://toolavio.com/en/privacy.html).
+Capabilities depend on the tool, format, browser, and feature access. Technical checks are not universal certification of document fidelity. Keep your originals and review important outputs. Local browser storage is not a guaranteed backup. Read the [FAQ](docs/FAQ.md) and [official privacy information](https://toolavio.com/en/privacy.html).
 
 ## Explore the project
 
 | Guide | What it helps you understand |
 | --- | --- |
+| [Project presentation](docs/PROJECT.md) | What Toolavio is, the problem it addresses, and its development direction. |
 | [Quick start](docs/QUICK_START.md) | Three walkthroughs with expected sample results. |
-| [Practical use cases](docs/USE_CASES.md) | Six everyday tasks and the appropriate starting points. |
-| [Casi d'uso in italiano](docs/CASI_USO_IT.md) | Percorsi concreti, risultati attesi e cosa controllare. |
-| [Guida alle otto funzioni](docs/GUIDA_FUNZIONI_IT.md) | Quando usare One, Drop, Flow, Proof, Vault, preferiti, condivisione e offline. |
-| [Presentazione in italiano](docs/PRESENTAZIONE_IT.md) | Cos'è Toolavio e quale problema vogliamo risolvere. |
+| [Practical use cases](docs/USE_CASES.md) | Six everyday tasks and appropriate starting points. |
+| [Guide to the eight capabilities](docs/FEATURES.md) | When to use One, Drop, Flow, Proof, Vault, favorites, sharing, and offline tools. |
+| [Frequently asked questions](docs/FAQ.md) | Privacy, platform limits, accounts, and offline use. |
 | [Public roadmap](docs/ROADMAP.md) | Current priorities, planned Core/TAE work, and readiness criteria. |
+
+Every guide offers English, Italian, and German reading options. The main navigation and default documents remain in English.
 
 ## What we are building toward
 
@@ -106,17 +112,17 @@ Capabilities depend on the tool, format, browser, and feature access. Technical 
 - **Toolavio Core:** a development initiative to separate suitable existing processing engines into independently usable modules, starting with CSV, TSV, and JSON.
 - **Toolavio Action Engine (TAE):** the planned integration system for bringing compatible Toolavio tools into other websites. The customer-facing product is **Toolavio Action**, with `/tae/` as its permanent project path on Toolavio.com.
 
-These initiatives are not presented as released libraries or a production-ready embedding service. There is no Core download, public SDK installation, or self-hosted distribution in this repository. See the [roadmap](https://github.com/Toolavio/Toolavio/blob/main/docs/ROADMAP.md).
+These initiatives are not presented as released libraries or a production-ready embedding service. There is no Core download, public SDK installation, or self-hosted distribution in this repository. See the [roadmap](docs/ROADMAP.md).
 
 ## Help shape Toolavio
 
-**What were you trying to do? Which step felt confusing? What would make you use it again?** Share a concrete task in [Discussions](https://github.com/Toolavio/Toolavio/discussions); feedback in English or Italian is welcome.
+**What were you trying to do? Which step felt confusing? What would make you use it again?** Share a concrete task in [Discussions](https://github.com/Toolavio/Toolavio/discussions). English is the main community language; feedback in Italian or German is also welcome.
 
 If a tool helped, share its direct link with someone who needs that operation. You can also star this repository to find the guides again. No account action or public endorsement is required to try a tool.
 
 [Report a reproducible bug](https://github.com/Toolavio/Toolavio/issues/new/choose) using fictional data. Keep documents, credentials, account details, and confidential information private.
 
-For private matters, use [Support](https://github.com/Toolavio/Toolavio/blob/main/SUPPORT.md). Report security concerns privately following [SECURITY.md](https://github.com/Toolavio/Toolavio/blob/main/SECURITY.md). Documentation contributions are covered by [CONTRIBUTING.md](https://github.com/Toolavio/Toolavio/blob/main/CONTRIBUTING.md).
+For private matters, use [Support](SUPPORT.md). Report security concerns privately following [SECURITY.md](SECURITY.md). Documentation contributions are covered by [CONTRIBUTING.md](CONTRIBUTING.md).
 
 Product release notes remain on the official [Toolavio Updates page](https://toolavio.com/en/updates.html). Changes to this repository are documentation updates, not application releases.
 

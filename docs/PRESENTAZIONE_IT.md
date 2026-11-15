@@ -1,6 +1,8 @@
 # Toolavio
 ## Un unico posto per convertire, modificare, calcolare e lavorare con i propri file.
 
+[English — principale](PROJECT.md) · **Italiano** · [Deutsch](PROJECT_DE.md)
+
 **Toolavio.com è una piattaforma di strumenti digitali utilizzabili direttamente dal browser, su computer e smartphone.** Riunisce operazioni per documenti, immagini, testo, dati e calcoli, con un obiettivo preciso: aiutare le persone a completare il proprio lavoro senza cercare ogni volta un sito diverso.
 
 **[Apri Toolavio](https://toolavio.com/it/) · [Esplora la piattaforma](https://toolavio.com/) · [Leggi gli aggiornamenti](https://toolavio.com/it/updates.html)**
@@ -77,6 +79,8 @@ Le componenti seguenti appartengono alla stessa piattaforma. Non sono otto prodo
 
 La disponibilità dipende dall'operazione, dal formato e dal browser. Il riconoscimento di un obiettivo non implica che Toolavio sappia eseguire qualsiasi richiesta. Allo stesso modo, un controllo strutturale del risultato non certifica automaticamente fedeltà visiva, accuratezza OCR o validità legale di un documento.
 
+Consulta la [guida pratica alle otto funzioni](GUIDA_FUNZIONI_IT.md).
+
 ## Elaborazione locale e controllo dei file
 
 Per gli strumenti che supportano l'elaborazione locale, **il contenuto dei file viene trattato nel browser anziché inviato a Toolavio per svolgere quell'operazione**.
@@ -148,7 +152,7 @@ Sono utili suggerimenti su chiarezza delle istruzioni, facilità d'uso, traduzio
 
 **Consulta i rilasci effettivi:** [Aggiornamenti Toolavio](https://toolavio.com/it/updates.html). La cronologia ufficiale rimane sul sito; questo documento non è un secondo registro delle release.
 
-**Invia un suggerimento o una segnalazione:** [Issue del progetto](https://github.com/Toolavio/Toolavio/issues/new/choose). Per questioni private, usa i contatti indicati sul sito. Le vulnerabilità non vanno pubblicate in una segnalazione aperta.
+**Invia un suggerimento o una segnalazione:** [Issue del progetto](https://github.com/Toolavio/Toolavio/issues/new/choose). Per questioni private, usa i contatti indicati sul sito o [Supporto](../SUPPORT.it.md). Le vulnerabilità non vanno pubblicate in una segnalazione aperta.
 
 ---
 
