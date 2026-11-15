@@ -1,10 +1,10 @@
 # Quick start
 
-[Back to Toolavio](https://toolavio.com/) · [Overview](../README.md) · [FAQ](FAQ.md)
+[Open Toolavio](https://toolavio.com/) · [Overview](../README.md) · [Sample files](../examples/README.md) · [FAQ](FAQ.md)
 
-Use these three walkthroughs to try Toolavio with non-sensitive sample data. They describe the workflow and expected result, not exhaustive testing on every device. Labels can vary by language and release.
+Try these three tasks with non-sensitive sample data. The walkthroughs describe a workflow and expected content—not exhaustive testing on every device. Labels can vary by language and release.
 
-Keep your originals. Do not use confidential documents just to try a tool.
+**Keep your originals.** The ready-to-use [CSV and JSON samples](../examples/README.md) are fictional; you do not need private documents to try the data tools.
 
 ## 1. Turn images into one PDF
 
@@ -23,7 +23,7 @@ Keep your originals. Do not use confidential documents just to try a tool.
 
 **Open:** [Compare CSV files](https://toolavio.com/en/spreadsheet/compare-csv-files/).
 
-You can paste these samples directly into the two table inputs, or save them as small UTF-8 `.csv` files. The sample names and scores are fictional.
+Use [left.csv](../examples/csv/left.csv) and [right.csv](../examples/csv/right.csv), or paste the text below into the two table inputs.
 
 **First table — left.csv**
 
@@ -43,18 +43,18 @@ Cyd,9.6
 
 1. Paste the first sample into **Table** and the second into **Second table**, or select the corresponding files.
 2. Check that both inputs are present. These examples use commas and a header row.
-3. Run the comparison and inspect the shared rows and the rows found only in each input.
+3. Run the comparison and inspect the shared rows and rows found only in each input.
 4. Copy or download the result using the actions offered by the tool.
 
 **Expected content:** Ada/4.8 is shared; Bob/7.2 appears only in the first table; Cyd/9.6 appears only in the second.
 
-The tool compares rows across all columns in the described operation. A matching name alone does not make two rows identical. This is not a general database merge.
+The described operation compares rows across all columns. A matching name alone does not make two rows identical. This is not a general database merge.
 
 ## 3. Clean a CSV and convert it to JSON in Flow
 
 **Open:** [Toolavio Flow](https://toolavio.com/en/flow/).
 
-**Sample input:**
+Use [clean-me.csv](../examples/csv/clean-me.csv), or paste:
 
 ```csv
 name,score
@@ -63,29 +63,33 @@ Ada,4.8
 Zoe,7.25
 ```
 
-1. Choose the **Clean CSV → CSV to JSON** preset. If the available presets differ, add the corresponding compatible operations.
-2. Paste the sample into the input area, or select your sample CSV once. Review the steps and their options before running.
+1. Choose **Clean CSV → CSV to JSON**. If the available presets differ, add the corresponding compatible operations.
+2. Paste the sample into the input area, or select the file once. Review the steps and cleanup options before running.
 3. Press **Run flow** and inspect the final output and any intermediate results exposed by the interface.
 4. Download the JSON and confirm that it contains the intended records and values.
 
-**Expected content:** the selected cleanup is applied before conversion, and the Ada/4.8 and Zoe/7.25 records remain present. Check whether cell values are exported as strings or numbers; do not assume that conversion preserves all source types or formatting.
+**Expected content:** the selected cleanup is applied before conversion, and Ada/4.8 and Zoe/7.25 remain present. Check whether cells are exported as strings or numbers; do not assume conversion preserves every source type or formatting detail.
 
-Flow only connects compatible operations. A recipe cannot perform an operation that is not implemented or accept an unsupported input. Availability of particular presets or advanced features can vary.
+Flow connects compatible operations, not arbitrary combinations. Available presets and advanced features can vary.
 
-## Before sharing a workflow
+## Another quick check: format JSON
 
-Choose **Share workflow** to share the supported sequence and settings—not your input files. The recipient supplies their own files. Review the shared configuration for sensitive text before sending it.
+Open [Format JSON](https://toolavio.com/en/developer/json-format/), paste [sample.json](../examples/json/sample.json), keep indentation at **2**, and run the action. Check that the result is easier to read and still contains `project`, `sample`, and all three numbers. The expected object is shown in the [sample guide](../examples/README.md).
 
-**Share tool** and **Share result** are different actions: the first shares a public link; the second can send the generated file to an application you choose.
+## Share the procedure, not the files
 
-## Use offline or install Toolavio
+**Share workflow** shares supported steps and settings; recipients supply their own inputs. Review the configuration for sensitive text before sending it.
 
-Open [Offline toolkits](https://toolavio.com/en/offline/) while connected, prepare the toolkit you need, and follow the installation instructions offered for your browser. Test the specific tool before relying on it offline.
+**Share tool** sends a public tool link. **Share result** can send the generated file to an application you select. These actions are different.
 
-An installed web app is not a promise that every tool works without a connection. Browser support, downloaded resources, updates, and local storage affect availability. Download important results rather than relying on the browser as a backup.
+## Offline use and installation
+
+Open [Offline toolkits](https://toolavio.com/en/offline/) while connected, prepare the toolkit you need, and follow the instructions offered for your browser. Test the specific tool before relying on it offline.
+
+An installed web app does not make every function available without a connection. Browser support, downloaded resources, updates, and storage affect availability. Download important results rather than treating browser storage as a backup.
 
 ## Something does not work?
 
-Check the format and size limits, retain the original, and try a small synthetic sample. Do not clear site data before saving anything you need from the local workspace. Follow [Support](../SUPPORT.md) to report a reproducible problem without publishing private information.
+Keep the original, check format and size limits, and try a small synthetic sample. Do not clear site data before saving work you need from the local workspace. Follow [Support](../SUPPORT.md) to describe the problem without posting private information.
 
-For product changes, use the official [Updates page](https://toolavio.com/en/updates.html).
+For current product changes, use the official [Updates page](https://toolavio.com/en/updates.html).
