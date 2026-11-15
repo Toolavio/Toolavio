@@ -12,14 +12,24 @@
   <a href="https://toolavio.com/"><strong>Open Toolavio</strong></a> ·
   <a href="https://github.com/Toolavio/Toolavio/blob/main/docs/QUICK_START.md">Quick start</a> ·
   <a href="https://github.com/Toolavio/Toolavio/blob/main/examples/README.md">Try sample files</a> ·
-  <a href="https://github.com/Toolavio/Toolavio/blob/main/docs/FAQ.md">FAQ</a> ·
-  <a href="https://github.com/Toolavio/Toolavio/blob/main/docs/PRESENTAZIONE_IT.md">Presentazione in italiano</a> ·
-  <a href="https://github.com/Toolavio/Toolavio/blob/main/SUPPORT.md">Get help</a>
+  <a href="https://github.com/Toolavio/Toolavio/discussions">Community</a> ·
+  <a href="https://github.com/Toolavio/Toolavio/blob/main/docs/PRESENTAZIONE_IT.md">Italiano</a>
 </p>
+
+<p align="center"><strong>Browser-based · Desktop & mobile · 17 interface languages</strong><br>
+Public product guide. Private application code.</p>
 
 Toolavio brings everyday digital tasks into one browser-based toolkit for desktop and mobile: **PDFs, images, text, tables, calculations, and developer utilities**. Its catalog contains approximately **1,000 operations across 12 categories**, with interfaces in **17 languages**.
 
 **Use the product at [Toolavio.com](https://toolavio.com/).** This repository contains its public presentation, user guides, fictional sample data, and feedback forms—not the application source code or an installable software package.
+
+## Why give Toolavio a try?
+
+**Start with a task, not a software manual.** Open a dedicated tool when you know what you need, or use the site's search and file selection to explore compatible actions.
+
+**Keep a useful result moving.** Supported workflows can pass output to the next compatible operation instead of making you download and select the same content again.
+
+**Choose local processing where supported.** File-processing tools can work in your browser; the scope and limitations are explained below. Advanced features remain optional for simple tasks.
 
 ## Start with what you need
 
@@ -36,9 +46,30 @@ Toolavio brings everyday digital tasks into one browser-based toolkit for deskto
 
 **Choose a tool → select a file or enter data → run the operation → review and download the result.** Advanced features are optional; a simple conversion should not require learning a workflow system.
 
-### Try it without private documents
+### Try a tiny input — no private document needed
 
-Start with the [small CSV and JSON samples](https://github.com/Toolavio/Toolavio/blob/main/examples/README.md) and follow the [three practical walkthroughs](https://github.com/Toolavio/Toolavio/blob/main/docs/QUICK_START.md). The samples are fictional inputs, not software or private user data.
+Open the [JSON formatter](https://toolavio.com/en/developer/json-format/) and paste:
+
+```json
+{"project":"Toolavio","tasks":["convert","calculate","organize"]}
+```
+
+Choose indentation, run the operation, and inspect the result. With two-space indentation, the expected content is:
+
+```json
+{
+  "project": "Toolavio",
+  "tasks": [
+    "convert",
+    "calculate",
+    "organize"
+  ]
+}
+```
+
+This is a fictional example of the expected transformation, not a claim that every tool or browser has been tested. Compare the keys, values, and array order before copying or downloading.
+
+For file-based tasks, use the [small CSV and JSON samples](https://github.com/Toolavio/Toolavio/blob/main/examples/README.md) and follow the [three practical walkthroughs](https://github.com/Toolavio/Toolavio/blob/main/docs/QUICK_START.md). The samples are fictional inputs, not software or private user data.
 
 For a task-oriented introduction, explore [six practical use cases](docs/USE_CASES.md) or [leggi i casi d'uso in italiano](docs/CASI_USO_IT.md).
 
@@ -77,9 +108,13 @@ Capabilities depend on the tool, format, browser, and feature access. Technical 
 
 These initiatives are not presented as released libraries or a production-ready embedding service. There is no Core download, public SDK installation, or self-hosted distribution in this repository. See the [roadmap](https://github.com/Toolavio/Toolavio/blob/main/docs/ROADMAP.md).
 
-## Feedback, support, and updates
+## Help shape Toolavio
 
-[Report a bug or suggest an improvement](https://github.com/Toolavio/Toolavio/issues/new/choose). Use fictional data in public reports. Keep documents, credentials, account details, and confidential information private.
+**What were you trying to do? Which step felt confusing? What would make you use it again?** Share a concrete task in [Discussions](https://github.com/Toolavio/Toolavio/discussions); feedback in English or Italian is welcome.
+
+If a tool helped, share its direct link with someone who needs that operation. You can also star this repository to find the guides again. No account action or public endorsement is required to try a tool.
+
+[Report a reproducible bug](https://github.com/Toolavio/Toolavio/issues/new/choose) using fictional data. Keep documents, credentials, account details, and confidential information private.
 
 For private matters, use [Support](https://github.com/Toolavio/Toolavio/blob/main/SUPPORT.md). Report security concerns privately following [SECURITY.md](https://github.com/Toolavio/Toolavio/blob/main/SECURITY.md). Documentation contributions are covered by [CONTRIBUTING.md](https://github.com/Toolavio/Toolavio/blob/main/CONTRIBUTING.md).
 
