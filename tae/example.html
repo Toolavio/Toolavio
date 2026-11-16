@@ -4,16 +4,26 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Toolavio Action — integration example</title>
+<title>Toolavio Action — PDF Build1 integration example</title>
 </head>
 <body>
-<h1>Toolavio Action: integration example</h1>
-<p>This public example contains the loader only, not Toolavio's processing engines.</p>
-<p><strong>The hosted Alpha has not been activated by this GitHub update.</strong> The tools will appear here only after Toolavio publishes the runtime and authorizes this site's exact origin.</p>
+<h1>Toolavio Action: five PDF tools</h1>
+<p>Merge, extract, remove, rotate, and reorder PDF pages.</p>
+<p><strong>PREPARED — hosted activation pending.</strong> This example contains only the public integration loader, not the PDF engines or the administrator application.</p>
+<p>After TAE is deployed, use the operator panel to verify and activate your exact website origin, then copy its generated code. Replace the placeholder below with that installation's public site ID; never enter an administrator password.</p>
 <div id="toolavio-action"></div>
-<script src="https://toolavio.com/tae/embed.js" data-container="toolavio-action" data-lang="en" async></script>
+<!-- Not an active site ID. Replace with the value from the operator panel. -->
+<script
+  src="https://toolavio.com/tae/embed.js"
+  data-container="toolavio-action"
+  data-site-id="REPLACE_WITH_SITE_ID_FROM_ADMIN"
+  data-lang="en"
+  data-tool="merge-pdf"
+  async>
+</script>
 <noscript>JavaScript is required for the embedded tools.</noscript>
-<p>If the tools do not appear, check deployment, the origin allowlist and the host site's Content Security Policy. This file is not a standalone converter.</p>
-<p><a href="https://toolavio.com/">Use the main Toolavio website</a></p>
+<p>Serve this page over HTTP/HTTPS. The host's security policy must allow the required Toolavio script and frame. This file is not a standalone PDF tool and does not activate a subscription.</p>
+<p><a href="README.md">Read the integration guide and limits</a></p>
+<p><a href="https://toolavio.com/en/pdf/">Use the main Toolavio PDF tools</a></p>
 </body>
 </html>

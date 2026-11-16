@@ -1,45 +1,78 @@
-# Toolavio Action Engine — Alpha con cinque strumenti
+# Toolavio Action Engine — Alpha PDF · Build1
 
 [English — principale](README.md) · **Italiano** · [Deutsch](README.de.md)
 
-Una piccola integrazione per offrire strumenti Toolavio su altri siti. Il percorso permanente previsto è **`https://toolavio.com/tae/`**.
+**Cinque strumenti PDF incorporabili, con una gestione più semplice di clienti e siti.** Toolavio Action Engine (TAE) è il progetto d'integrazione alla base di Toolavio Action. Il percorso applicativo permanente è `https://toolavio.com/tae/`.
 
-> **Stato: anteprima del codice d'integrazione Alpha. Questo aggiornamento non pubblica il runtime sui server Toolavio.** La cartella contiene loader pubblico, esempio HTML e istruzioni, non l'applicazione di elaborazione riservata. Copiare l'esempio non rende subito disponibili i cinque strumenti: servono pubblicazione del runtime e autorizzazione dell'origine del sito ospitante.
+> **Stato: PREPARED — build privata integrata, non una release online di produzione.** Questo aggiornamento GitHub pubblica soltanto documentazione e loader corrispondente. Non pubblica né attiva TAE su Toolavio.com. Prima di annunciarne la disponibilità servono la revisione nell'ambiente di sviluppo originale e le verifiche di rilascio ancora aperte.
 
-## I cinque strumenti
+## Cinque strumenti, soltanto PDF
 
-| Strumento | Ambito Alpha |
-| --- | --- |
-| Formatta JSON | Indenta JSON valido con il formattatore originale, conservando i token numerici. |
-| CSV → JSON | Converte una tabella UTF-8 con intestazioni in record; le celle restano stringhe. |
-| JSON → CSV | Esporta un array non vuoto di record piatti. Null/campi assenti diventano celle vuote; numeri molto precisi vanno inseriti come stringhe. |
-| Confronta CSV | Confronta righe complete, distinguendo maiuscole, spazi e quantità dei duplicati; stesse intestazioni e delimitatore. |
-| Ridimensiona immagine | Input PNG/JPEG/WebP; vicino più prossimo; output PNG. Adatto alla grafica pixel, non è un miglioramento fotografico. |
+| Strumento | Cosa fa | `data-tool` facoltativo |
+| --- | --- | --- |
+| **Unisci PDF** | Combina i documenti nell'ordine scelto. | `merge-pdf` |
+| **Estrai pagine** | Crea un PDF con le pagine selezionate. | `extract-pdf` |
+| **Elimina pagine** | Rimuove le pagine indicate. | `remove-pdf` |
+| **Ruota pagine** | Ruota tutte le pagine oppure una selezione. | `rotate-pdf` |
+| **Riordina pagine** | Modifica l'ordine o inverte il documento. | `reorder-pdf` |
 
-L'Alpha riservata implementa questi percorsi con i motori Toolavio esistenti, non con convertitori dimostrativi sostitutivi. I file vengono elaborati nel browser. Caricare pagina e risorse richiede connessione: questa Alpha non promette installazione offline, fatturazione, licenze per dominio o compatibilità universale con i CMS.
+Le operazioni lavorano sulle pagine PDF senza rasterizzarle in immagini. Compressione, OCR, oscuramento, conversione immagini e riscrittura del testo non sono inclusi in questo perimetro TAE.
 
-## Codice d'integrazione — dopo l'attivazione sul server
+La precedente selezione Alpha CSV/JSON/immagini è sostituita **soltanto in TAE**. Il sito principale conserva il proprio catalogo; Toolavio Pro e PDF Studio restano offerte distinte. Anche il progetto del modulo dati autonomo Toolavio Core rimane separato da questa Alpha PDF.
+
+## Un pannello più semplice per l'operatore
+
+Il pannello preparato parte da **I tuoi siti → Aggiungi sito**, anziché da un modulo tecnico di configurazione:
+
+1. Scegli o crea il cliente e inserisci l'indirizzo del sito.
+2. Seleziona gli strumenti PDF da abilitare.
+3. Segui le istruzioni di verifica DNS del dominio e attiva l'installazione.
+4. Copia il codice d'integrazione e consegnalo al proprietario del sito.
+
+La scheda del sito permette di copiare il codice, scegliere gli strumenti, modificare e sospendere. Identificativi tecnici, indirizzi aggiuntivi, scadenza e registro attività sono nelle impostazioni avanzate.
+
+Dopo la configurazione iniziale di server e database, le normali modifiche a clienti e siti vengono lette dal database senza una nuova build o un riavvio. Questo comportamento è coperto da test HTTP/SQLite locali; la verifica MySQL di produzione resta aperta. Le modifiche al codice e alla configurazione del server richiedono invece il relativo processo di rilascio o riavvio.
+
+È un **pannello per un solo operatore**, non un portale autonomo per clienti né un sistema di fatturazione. L'autorizzazione del dominio non è una licenza a pagamento o un DRM. Sospendere un'installazione non cancella un abbonamento o risultati già scaricati.
+
+## Esempio d'integrazione — dopo pubblicazione e attivazione del sito
+
+Usa il codice generato dal pannello. Il segnaposto seguente non è un identificativo d'installazione attivo.
 
 ```html
 <div id="toolavio-action"></div>
-<script src="https://toolavio.com/tae/embed.js"
-  data-container="toolavio-action" data-lang="it" async></script>
+<script
+  src="https://toolavio.com/tae/embed.js"
+  data-container="toolavio-action"
+  data-site-id="REPLACE_WITH_SITE_ID_FROM_ADMIN"
+  data-lang="it"
+  data-tool="merge-pdf"
+  async>
+</script>
 ```
 
-Lingue: `en`, `it`, `de`; inglese predefinito. `data-tool` facoltativo: `json-format`, `csv-to-json`, `json-to-csv`, `compare-csv`, `resize-image`. Ogni istanza deve avere un container diverso.
+**Non inserire password amministrative o segreti di sessione nel codice.** L'ID del sito è pubblico, non è una password. Il runtime ospitato controlla configurazione dell'installazione e origini autorizzate a incorporarla.
 
-[Vedi l'esempio HTML completo](example.html). Servilo via HTTP/HTTPS, non come allegato della chat o con `file:`. La CSP del sito deve consentire script e frame Toolavio; l'operatore deve autorizzare l'origine HTTPS esatta. Il codice pubblico non è una licenza a pagamento.
+`data-lang` supporta `en`, `it` e `de`, con inglese predefinito. `data-tool` è facoltativo e seleziona uno dei cinque strumenti PDF; non autorizza uno strumento disabilitato per il sito. Usa un container diverso per ogni istanza.
 
-Il loader crea un iframe con sandbox. Il protocollo di dimensionamento verifica origine, finestra del frame e canale dell'istanza; non invia al sito ospitante file, testi inseriti o risultati. Appunti e download dipendono dai permessi del browser.
+[Vedi l'esempio HTML](example.html). Servi la pagina ospitante via HTTP/HTTPS, non dall'anteprima della chat o con `file:`. La sua politica di sicurezza deve consentire script e frame Toolavio necessari; l'installazione deve autorizzare l'origine esatta del sito. Copiare soltanto il loader non installa l'applicazione privata e non attiva il servizio.
 
-## Verifiche e passaggi ancora necessari
+## Elaborazione e limiti
 
-Il pacchetto privato ha nuovi test sui motori/HTTP e prove Chromium offline, con download reali e controlli indipendenti di tabelle e pixel. **Non sono test della produzione.** Il caricatore offline risolve i moduli tramite blob locali e adatta il packaging del worker all'origine di test opaca. Non dimostra caricamento HTTP dei moduli o incorporamento cross-origin reale. La suite browser HTTP non è riuscita ad avviarsi a causa della politica amministrativa di navigazione del browser disponibile; il blocco è documentato.
+L'elaborazione PDF avviene nel browser. Caricare le risorse e controllare l'abilitazione richiede comunque richieste al server. Questa build TAE non promette funzionamento offline, compatibilità universale con i CMS o installazioni native.
 
-Prima di annunciare l'Alpha online: eseguire la suite browser normale, configurare le origini, integrare nel vero sorgente e nella pipeline release, ottenere autorizzazione al deploy, aggiornare le note del prodotto e verificare il risultato live. Non sono certificati WordPress, Shopify, Safari/iPhone o funzioni native Android.
+Limiti predisposti: **fino a 10 file, 64 MiB complessivi e 300 pagine**. Vengono rifiutati i documenti con cifratura, moduli interattivi o permessi di firma rilevati. Il rilevamento non è una validazione crittografica delle firme. Non è garantita universalmente la conservazione inalterata di segnalibri, allegati, annotazioni, metadati, firme e altre strutture complesse. Conserva gli originali e controlla i risultati importanti.
 
-## Confini
+Il loader usa un iframe con sandbox e verifica origine del messaggio, finestra del frame e canale dell'istanza per caricamento e ridimensionamento. Non trasferisce al sito ospitante contenuti dei documenti o risultati tramite quel protocollo. Il JavaScript inviato al browser rimane ispezionabile.
 
-Nessun Core, server riservato, ZIP di produzione, credenziale o file cliente viene pubblicato qui. Il JavaScript inviato al browser resta ispezionabile. Non viene assegnata una licenza open source all'applicazione e non vengono attivati prezzi, account o pagamenti.
+## Cosa è stato verificato e cosa manca
 
-La piattaforma esistente è su [Toolavio.com](https://toolavio.com/it/). Le release effettive sono negli [Aggiornamenti](https://toolavio.com/it/updates.html). Questa anteprima non è un servizio già online.
+Il rapporto privato di preparazione Build1 documenta test locali dei moduli/HTTP, prove dell'interfaccia in Chromium offline e controlli indipendenti di contenuto, ordine, rotazioni e pixel dei PDF campione. I test browser utilizzano risposte amministrative o autorizzazioni sintetiche e un ambiente offline. **Non sono un collaudo completo della produzione.** Questo aggiornamento documentale non riesegue né estende quelle verifiche software.
+
+Prima dell'attivazione restano: MySQL isolato, caricamento browser HTTP/HTTPS normale e incorporamento tra origini diverse, regressioni nell'ambiente Toolavio originale, pubblicazione autorizzata e controllo live successivo. Non viene dichiarata una certificazione di compatibilità WordPress, Shopify, Safari/iPhone o Android.
+
+## Integrazione pubblica, applicazione privata
+
+Questa cartella contiene **soltanto loader, esempio e tre guide di lettura**. Nessun motore PDF, Core, implementazione del pannello, migrazione database, archivio di distribuzione, credenziale o rapporto interno dei test viene pubblicato. Non è un rilascio open source dell'applicazione Toolavio né un download self-hosted.
+
+Build1 identifica la consegna TAE preparata, non una nuova versione live della piattaforma. Le release effettive restano negli [Aggiornamenti Toolavio](https://toolavio.com/it/updates.html). Gli strumenti già disponibili sono su [Toolavio.com](https://toolavio.com/it/). Per segnalazioni sicure consulta [Supporto](../SUPPORT.it.md).

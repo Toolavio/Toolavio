@@ -1,10 +1,11 @@
-/* Toolavio Action embed loader v0.1.0-alpha.1. No processing engines are included. */
+/* Toolavio Action embed loader TAE-Build1. No processing engines are included. */
 (function () {
   'use strict';
   const script=document.currentScript;
   if(!script)return;
   const langs=['en','it','de'];
-  const tools=['json-format','csv-to-json','json-to-csv','compare-csv','resize-image'];
+  const tools=['merge-pdf','extract-pdf','remove-pdf','rotate-pdf','reorder-pdf'];
+  const siteId=script.dataset.siteId||'';
   const lang=langs.includes(script.dataset.lang)?script.dataset.lang:'en';
   const words={en:['Loading Toolavio Action…','The embedded tools are not available. Open Toolavio instead.','Toolavio Action tools'],it:['Caricamento di Toolavio Action…','Gli strumenti incorporati non sono disponibili. Apri Toolavio.','Strumenti Toolavio Action'],de:['Toolavio Action wird geladen…','Die eingebetteten Werkzeuge sind nicht verfügbar. Toolavio direkt öffnen.','Toolavio Action Werkzeuge']}[lang];
   let base=new URL('https://toolavio.com/tae/');
@@ -25,6 +26,7 @@
     frame.setAttribute('sandbox','allow-scripts allow-same-origin allow-downloads');
     frame.setAttribute('allow','clipboard-write');frame.referrerPolicy='no-referrer';frame.loading='lazy';
     const url=new URL(base);url.searchParams.set('lang',lang);url.searchParams.set('embed','1');
+    if(/^site_[a-f0-9]{32}$/.test(siteId))url.searchParams.set('site',siteId);
     if(tools.includes(script.dataset.tool))url.searchParams.set('tool',script.dataset.tool);
     url.hash=new URLSearchParams({channel,parent:location.origin}).toString();frame.src=url.href;
     let timer,ready=false;
